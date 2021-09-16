@@ -1,7 +1,7 @@
 public class Dev_linguagem {
     private String nomeLinguagem;
     private String descricao;
-    private int aplicacao;
+    private String aplicacao;
 
     public void setNomeLinguagem(String nomeLinguagem){
         this.nomeLinguagem = nomeLinguagem;
@@ -20,12 +20,12 @@ public class Dev_linguagem {
         return descricao;
     }
 
-    public void setAplicacao(int aplicacao){
+    public void setAplicacao(String aplicacao){
 
         this.aplicacao = aplicacao;
     }
 
-    public int getAplicacao(){
+    public String getAplicacao(){
 
         return aplicacao;
     }
