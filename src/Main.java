@@ -14,7 +14,7 @@ public class Main {
 
         String nome;
         String sobrenome;
-        String idade;
+        int idade;
 
         boolean isValida = true;
 
@@ -47,7 +47,7 @@ public class Main {
 
         do {
             System.out.println("Informe a idade: ");
-            idade = sc.nextLine();
+            idade = sc.nextInt();
             if (ValidaIdade.isIdade(idade) == true){
                 dev.setIdadeDev(idade);
                 break;

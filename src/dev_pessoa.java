@@ -2,7 +2,7 @@ public class Dev_pessoa {
     private String nomeDev;
     private String sobrenomeDev;
     private String senioridadeDev;
-    private String idadeDev;
+    private int idadeDev;
 
 
     public void setNomeDev(String nomeDev){
@@ -32,12 +32,12 @@ public class Dev_pessoa {
     }
 
 
-    public void setIdadeDev(String idadeDev){
+    public void setIdadeDev(int idadeDev){
 
         this.idadeDev = idadeDev;
     }
 
-    public String getIdadeDev(){
+    public int getIdadeDev(){
 
         return idadeDev;
     }
